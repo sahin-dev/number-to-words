@@ -1,3 +1,3 @@
 const  numToWords = require("./lib/main")
 
-module.exports =  numToWords
+module.exports =  numberToWords

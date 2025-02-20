@@ -1,6 +1,6 @@
 {
   "name": "number-to-text-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight npm package to convert numbers into their text representation (e.g., 1000 → 'one thousand').",
   "main": "index.js",
   "scripts": {
@@ -36,5 +36,8 @@
   },
   "devDependencies": {
     "eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "number-to-text-converter": "^1.0.1"
   }
 }

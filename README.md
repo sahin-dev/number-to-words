@@ -13,17 +13,17 @@ A lightweight npm package to convert numbers into their text representation (e.g
 You can install the package via npm:
 
 ```bash
-npm install number-to-words
+npm i number-to-text-converter
 ```
 or
 
 ```bash
-yarn add number-to-words
+yarn add number-to-text-converter
 ```
 
 ## Basic Usage
 ```bash
-const numberToWords = require('number-to-words');
+const numberToWords = require('number-to-text-converter');
 
 console.log(numberToWords(1000)); // "one thousand"
 console.log(numberToWords(1010)); // "one thousand ten"
