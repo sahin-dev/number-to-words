@@ -1,0 +1,40 @@
+{
+  "name": "number-to-text-converter",
+  "version": "1.0.0",
+  "description": "A lightweight npm package to convert numbers into their text representation (e.g., 1000 → 'one thousand').",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "lint": "eslint .",
+    "prepublish": "npm run lint && npm test"
+  },
+  "keywords": [
+    "number-to-words",
+    "number",
+    "words",
+    "converter",
+    "utility",
+    "javascript",
+    "npm"
+  ],
+  "author": {
+    "name": "Md Sahin Siraj",
+    "email": "sahinsiraj360@gmail.com",
+    "url": "https://github.com/sahin-dev/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahin-dev/number-to-words.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sahin-dev/number-to-words/issues"
+  },
+  "homepage": "https://github.com/sahin-dev/number-to-words#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
+}
